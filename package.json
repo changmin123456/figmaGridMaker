@@ -1,0 +1,23 @@
+{
+  "name": "figma-logrid",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Figma plugin MVP for generating logo grids, construction guides, and clearspace diagrams.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "tsc --noEmit",
+    "dev": "node scripts/build.mjs --watch"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.103.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.7.2"
+  }
+}
